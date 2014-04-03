@@ -5,7 +5,7 @@ Android ArrayAdapter with ViewHolder pattern
 
 Example
 ```Java
-public class ListItem extends HolderArrayAdapterItem<ListItem.ViewHolder> {
+public class ListItem implements HolderArrayAdapterItem<ListItem.ViewHolder> {
     public class ViewHolder {
         public TextView exampleTextView;
     }
